@@ -1,0 +1,19 @@
+path is 
+http://mohanw.myqnapcloud.com/phpMyAdmin/index.php?token=a2b1387e66be061b4de0c8b917daebc8&old_usr=root
+
+user is          root 
+password is  admin 
+
+Following has been done.
+Create New database called Java 
+Create Table called game 
+table will have just 3 rows 
+1)fname = First name 
+2)lname = Last name 
+3)date =format 2016-05-31
+sample insert statement 
+
+
+INSERT INTO `java`.`game` (`fname`, `lname`, `date`) 
+VALUES ('Mohan', 'Wijedasa', '2016-05-31');
+
