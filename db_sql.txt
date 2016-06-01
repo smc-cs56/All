@@ -2,10 +2,10 @@
 This is a mysql data base 
 ==========================
 data base path is 
-http://mohanw.myqnapcloud.com/phpMyAdmin/index.php?token=a2b1387e66be061b4de0c8b917daebc8&old_usr=root
+http://mohanw.myqnapcloud.com/phpMyAdmin/index.php
 
-user is root 
-password is  admin 
+user is mohan
+password is  password 
 
 Following has been done.
 Create New database called Java 
