@@ -19,7 +19,7 @@
 
  // Execute a statement
  ResultSet resultSet = statement.executeQuery
- ("Select * from Game;");
+ ("Select * from Game3;");
  //("select firstName, mi, lastName from Student where lastName "
  //+ " = 'Smith'");
 
