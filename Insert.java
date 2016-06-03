@@ -27,18 +27,14 @@ public class Insert {
 	//  String id = JOptionPane.showInputDialog("Please Enter Numeric id");
 	  String fname = JOptionPane.showInputDialog("Please Enter First name");
 	  String lname = JOptionPane.showInputDialog("Please Enter Last name");
-	 String date = JOptionPane.showInputDialog("Please Enter date example 2016-05-31");
+	 String date = JOptionPane.showInputDialog("Please Enter date example 06-01-2016");
 	  
 
 	 stmt = conn.createStatement();
-	 String sql = "INSERT INTO Game3 VALUES('"+fname+"','"+lname+"','"+date+"')"; 
-    //id + ", " +
-    //fname + ")"; 
-	//", " +
-	//lname + ", " +
-	//date + ")";
+	 String sql = "INSERT INTO Game3 (fname, lname, date) VALUES('"+fname+"','"+lname+"','"+date+"')"; 
+    
 	stmt.executeUpdate(sql);
-	  //stmt.executeInsert(sql);
+	 
 	  
       
       System.out.println("Inserted records into the table...");

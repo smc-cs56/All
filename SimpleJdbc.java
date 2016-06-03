@@ -6,6 +6,7 @@
  // Load the JDBC driver
  Class.forName("com.mysql.jdbc.Driver");
  System.out.println("Driver loaded");
+    Statement stmt = null;
 
  // Connect to a database
  Connection connection = DriverManager.getConnection
@@ -22,6 +23,9 @@
  ("Select * from Game3;");
  //("select firstName, mi, lastName from Student where lastName "
  //+ " = 'Smith'");
+ //string fname=daniel,lname=wijedasa,date=216-05-31;
+	//	String sql = "INSERT INTO game (fnane,lname,date)"+"VALUES('"+fname+"','"+lname+"','"date"');"
+		//stmt.executeUpdate(sql);
 
  // Iterate through the result and print each column add resultSet.getString (with next column number as needed)
  while (resultSet.next())
